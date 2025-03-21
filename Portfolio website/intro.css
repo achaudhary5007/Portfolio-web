@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(0, 0, 0); 
+    font-family: 'Fira Sans' , sans-serif;
+    height: 100vh;
+    width: 35vh;
+}
+.sidebar nav{
+     padding: 45;
+     padding-left: 25px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: rgb(255, 246, 246);
+}
+.main{
+   background-color: rgb(198, 220, 217); 
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.devIntro h1{
+   margin: 20px
+}
+.devIntro h2{
+    margin: 20px
+}
+.infoContainer p{
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 25px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+#hundred{
+    height: 6px;
+    width: 250px;
+    background-color: red;
+    border: 2px solid black;
+}
+#eighty{
+    height: 6px;
+    width: 200px;
+    background-color: rgb(4, 0, 255);
+    border: 2px solid black;
+}
+#fifty{
+    height: 6px;
+    width: 120px;
+    background-color: rgb(79, 197, 0);
+    border: 2px solid black;
+}
+#seventy{
+    height: 6px;
+    width: 180px;
+    background-color: rgb(153, 92, 22);
+    border: 2px solid black;
+}
